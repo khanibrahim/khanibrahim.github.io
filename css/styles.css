@@ -12,9 +12,13 @@
 
 @media (max-width: 960px)
 {
-    .page-bg {
+  .hero.is-primary , .page-bg {
         background-size: cover !important;
     }
+}
+.hero.is-primary
+{
+    background-size: cover !important;
 }
 
 .page-bg {
