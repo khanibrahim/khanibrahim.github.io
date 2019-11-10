@@ -9,6 +9,14 @@
         width: 960px;
     }
 }
+
+@media (max-width: 960px)
+{
+    .page-bg {
+        background-size: cover !important;
+    }
+}
+
 .page-bg {
     background-image: url('../img/background.jpg') !important;
     background-color: #1c1c1c !important;
