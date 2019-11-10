@@ -10,7 +10,11 @@
     }
     .hero.is-primary .tabs.is-boxed a
     {
-    width:50vw !important;
+    font-size:120%;
+    }
+    .header-item
+    {
+    margin:10px;
     }
 }
 
