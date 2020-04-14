@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Mohammed Khan</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.0.16/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body>
+    <section class="hero is-primary is-fullheight page-bg" style="background-size:cover !important">
+        <!-- Hero header: will stick at the top -->
+        <div class="hero-header">
+            <header class="header">
+                <div class="container">
+                    <div class="header-left">
+                        <div class="header-item">
+                            <h1 class="title"></h1>
+                        </div>
+                    </div>
+                    <div class="header-right header-menu is-mobile">
+                        <span class="header-item">
+                            <a class="button is-inverted" href="docs/Mohammed Resume_FT.pdf" target="_blank">
+                                <i class="fa fa-file-o"></i>
+                                Resume
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-content">
+            <div class="container">
+
+                <article class="media">
+                    <div class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="img/profilepic.jpg" class="profile">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <div class="content">
+                            <h1 class="title is-1">
+                                Mohammed Ibrahim Khan
+                            </h1>
+                            <p class="subtitle is-3">
+                                Full Stack Web Developer
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-footer">
+            <nav class="tabs is-boxed is-fullwidth">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <a onclick="toggleClass('work-experience-modal')">
+                                <span class="icon">
+                                    <i class="fa fa-briefcase"></i>
+                                </span>
+                                Work Experience
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="toggleClass('skills-modal')">
+                                <span class="icon">
+                                    <i class="fa fa-code-fork"></i>
+                                </span>
+                                Skills
+                            </a>
+                        </li>                        
+                        <li>
+                            <a onclick="toggleClass('account-modal')">
+                                <span class="icon">
+                                    <i class="fa fa-globe "></i>
+                                </span>
+                                Accounts
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="toggleClass('contact-modal')">
+                                <span class="icon">
+                                    <i class="fa fa-envelope-o "></i>
+                                </span>
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <div class="modal" id="work-experience-modal">
+        <div class="modal-background" onclick="toggleClass('work-experience-modal');"></div>
+        <div class="modal-content">
+            <div class="box">
+                <div class="content">
+                    <h1 class="title is-text-centered"> Work Experience</h1>
+                    <ul class="no-list work">
+                        <li>
+                            <h5 class="title is-5">Software Engineer<span class="tag is-success is-pulled-right">2019-Present</span></h5>
+                            <h6>Resultiks</h6>
+                            <blockquote>
+                                Working on a microservice based .net project.
+                            </blockquote>
+                        </li>
+                        <li>
+                            <h5 class="title is-5">Full Stack Web Developer<span class="tag is-warning is-pulled-right">2017-2019</span></h5>
+                            <h6>Enliten IT India</h6>
+                            <blockquote>
+                                Worked as a web developer devoloping and enhancing a CRM software called EdifyBiz.
+                                <br /><br />
+                                Also worked on a number of small projects.
+                            </blockquote>
+                        </li>
+                        <li>
+                            <h5 class="title is-5">Web Developer<span class="tag is-warning is-pulled-right">2016-2017</span></h5>
+                            <h6>Freelancing</h6>
+                            <blockquote>
+                                Worked as a freelancer for 6 months after graduation.                                
+                            </blockquote>
+                        </li>       
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close" onclick="toggleClass('work-experience-modal'); event.stopPropagation();"></button>
+    </div>
+
+    <div class="modal" id="skills-modal">
+        <div class="modal-background" onclick="toggleClass('skills-modal');"></div>
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="box">
+                    <div class="columns">
+                        <div class="column">
+                            <h1 class="title is-text-centered">Back-End</h1>
+                            <div class="meter emerald">
+                                <span style="width: 80%"><span>C#</span></span>
+                            </div>
+                            <div class="meter carrot">
+                                <span style="width: 80%"><span>ASP.NET MVC & Web API</span></span>
+                            </div>                        
+                            <div class="meter wisteria">
+                                <span style="width: 85%"><span>SQL Server</span></span>
+                            </div>
+                            <div class="meter bittersweet">
+                                <span style="width: 70%"><span>MySql</span></span>
+                            </div>                         
+                        </div>
+                        <div class="column">
+                            <h1 class="title is-text-centered">Front-End</h1>
+                            <div class="meter sunflower">
+                                <span style="width: 80%"><span>HTML5</span></span>
+                            </div>
+                            <div class="meter mint">
+                                <span style="width: 75%"><span>CSS</span></span>
+                            </div>
+                            <div class="meter asbestos">
+                                <span style="width: 75%"><span>Angular 2+</span></span>
+                            </div>
+                            <div class="meter aqua">
+                                <span style="width: 70%"><span>jQuery</span></span>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <h1 class="title is-text-centered">Miscellaneous</h1>
+                            <div class="meter bluejeans">
+                                <span style="width: 75%"><span>Wordpress</span></span>
+                            </div>
+                            <div class="meter sunflower">
+                                <span style="width: 60%"><span>IIS</span></span>
+                            </div>
+                            <div class="meter asbestos">
+                                <span style="width: 50%"><span>Google Cloud Platform</span></span>
+                            </div>
+                            <div class="meter asbestos">
+                                <span style="width: 80%"><span>Domain & Hosting (CPanel,Plesk)</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close" onclick="toggleClass('skills-modal'); event.stopPropagation();"></button>
+    </div>
+
+    <div class="modal" id="account-modal">
+        <div class="modal-background" onclick="toggleClass('account-modal');"></div>
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="box">
+                    <div class="columns">
+                    <div class="column is-text-centered">
+                            <a href="https://ibkhanin.wordpress.com/"><h1 class="title"><i class="fa fa-internet-explorer"></i></h1></a>                               
+                    </div> 
+                    <div class="column is-text-centered">
+                            <a href="https://github.com/khanibrahim"> <h1 class="title"><i class="fa fa-github"></i> </h1></a>                            
+                    </div>
+                    <div class="column is-text-centered">                        
+                            <a href="https://www.linkedin.com/in/ibkhanin"><h1 class="title"><i class="fa fa-linkedin"></i></h1></a>
+                    </div>           
+                                            <div class="column is-text-centered">
+                            <a href="https://join.skype.com/invite/jyVC7PlEEnHJ/"><h1 class="title"><i class="fa fa-skype"></i></h1></a>                               
+                    </div> 
+                                            <div class="column is-text-centered">
+                            <a href="Tel: +91-8976867959"><h1 class="title"><i class="fa fa-whatsapp"></i></h1></a>                               
+                    </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close" onclick="toggleClass('contact-modal'); event.stopPropagation();"></button>
+    </div>
+
+    <div class="modal" id="contact-modal">
+        <div class="modal-background" onclick="toggleClass('contact-modal');"></div>
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="box">
+                    <div class="columns">
+                        <div class="column is-text-centered">
+                            <h1 class="title "><i class="fa fa-map-marker"></i></h1>
+                            <p>Mumbai - INDIA</p>
+                        </div>
+                        <div class="column is-text-centered">
+                            <h1 class="title"><i class="fa fa-mobile"></i></h1>
+                            <p>
+                                +91 89768 67959
+                            </p>
+                        </div>
+                        <div class="column is-text-centered">
+                            <h1 class="title"><i class="fa fa-envelope-o"></i></h1>
+                            <p class="email">
+                               <a href="mailto:ibkhan.in@gmail.com" >ibkhan.in@gmail.com</a>
+                            </p>
+                        </div>                  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close" onclick="toggleClass('contact-modal'); event.stopPropagation();"></button>
+    </div>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
