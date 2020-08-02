@@ -12068,7 +12068,7 @@ h5,
     .project.img-2 {
         height: 285px;
     }
-    .project .overlay{
+    .project .overlay, .project.text-center{
         display: none !important;
     }
 }
