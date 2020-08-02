@@ -12068,7 +12068,10 @@ h5,
     .project.img-2 {
         height: 285px;
     }
-    .project .overlay, .project.text-center{
+    .project .overlay{
+        display: none !important;
+    }
+    .project .text{
         display: none !important;
     }
 }
