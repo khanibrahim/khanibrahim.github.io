@@ -13119,3 +13119,7 @@ textarea.form-control {
         stroke-dashoffset: -136px;
     }
 }
+
+#testimonials-section .img{
+    background-size: contain !important;
+}
