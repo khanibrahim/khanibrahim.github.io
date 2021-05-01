@@ -1,16 +1,16 @@
 [{
   "galleryBaseUrl":"https://khanibrahim.github.io/Artophilia/Gallery/1"
-  "imageNmaeList": "1.png,2.png,3.png",
+  "imageNameList": "1.png,2.png,3.png",
   "imageTitle": "فن و تاريخ التطريز اليدوي"
 },
 {
   "galleryBaseUrl":"https://khanibrahim.github.io/Artophilia/Gallery/2"
-  "imageNmaeList": "1.png,2.png",
+  "imageNameList": "1.png,2.png",
   "imageTitle": "فن و تاريخ التطريز اليدوي"
 },
 {
   "galleryBaseUrl":"https://khanibrahim.github.io/Artophilia/Gallery/3"
-  "imageNmaeList": "1.png,2.png,3.png,4.png",
+  "imageNameList": "1.png,2.png,3.png,4.png",
   "imageTitle": "فن و تاريخ التطريز اليدوي"
 },
 ]
