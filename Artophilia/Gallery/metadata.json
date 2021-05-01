@@ -1,16 +1,16 @@
 [{
-  "articleUrl": "https://khanibrahim.github.io/Artophilia/Articles/1/index.html",
-  "imagePath": "https://khanibrahim.github.io/Artophilia/Articles/1/header.png",
-  "titleTxt": "فن و تاريخ التطريز اليدوي"
+  "galleryBaseUrl":"https://khanibrahim.github.io/Artophilia/Gallery/1"
+  "imageNmaeList": "1.png,2.png,3.png",
+  "imageTitle": "فن و تاريخ التطريز اليدوي"
 },
 {
-  "articleUrl": "https://khanibrahim.github.io/Artophilia/Articles/2/index.html",
-  "imagePath": "https://khanibrahim.github.io/Artophilia/Articles/2/header.png",
-  "titleTxt": "فن و تاريخ التطريز اليدوي"
+  "galleryBaseUrl":"https://khanibrahim.github.io/Artophilia/Gallery/2"
+  "imageNmaeList": "1.png,2.png",
+  "imageTitle": "فن و تاريخ التطريز اليدوي"
 },
 {
-  "articleUrl": "https://khanibrahim.github.io/Artophilia/Articles/3/index.html",
-  "imagePath": "https://khanibrahim.github.io/Artophilia/Articles/3/header.png",
-  "titleTxt": "فن و تاريخ التطريز اليدوي"
-}
+  "galleryBaseUrl":"https://khanibrahim.github.io/Artophilia/Gallery/3"
+  "imageNmaeList": "1.png,2.png,3.png,4.png",
+  "imageTitle": "فن و تاريخ التطريز اليدوي"
+},
 ]
