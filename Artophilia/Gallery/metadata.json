@@ -1,16 +1,26 @@
 [{
   "galleryBaseUrl":"https://khanibrahim.github.io/Artophilia/Gallery/1/",
-  "imageNameList": "1.png,2.png,3.png",
-  "imageTitle": "فن و تاريخ التطريز اليدوي"
+  "imageNameList": "1.jpg,2.jpg,3.jpg",
+  "imageTitle": "سلسلة هاندميد مُطرزة يدوياً‎"
 },
 {
   "galleryBaseUrl":"https://khanibrahim.github.io/Artophilia/Gallery/2/",
-  "imageNameList": "1.png,2.png",
-  "imageTitle": "فن و تاريخ التطريز اليدوي"
+  "imageNameList": "1.jpg,2.jpg,3.jpg,4.jpg,5.jpg",
+  "imageTitle": "منديل كتب كتاب أعيد إختياره لكن بالوردة البرازيلية‎"
 },
 {
   "galleryBaseUrl":"https://khanibrahim.github.io/Artophilia/Gallery/3/",
-  "imageNameList": "1.png,2.png,3.png,4.png",
-  "imageTitle": "فن و تاريخ التطريز اليدوي"
+  "imageNameList": "1.jpg,2.jpg,3.jpg,4.jpg,5.jpg,6.jpg,7.jpg",
+  "imageTitle": "طارة مُطرزة يدوياً لطبيب أسنان‎"
+},
+{
+  "galleryBaseUrl":"https://khanibrahim.github.io/Artophilia/Gallery/4/",
+  "imageNameList": "1.jpg,2.jpg,3.jpg,4.jpg,5.jpg,6.jpg",
+  "imageTitle": "منديل كتب كتاب مع دمج الألوان و الوردة البرازيلية‎"
+},
+{
+  "galleryBaseUrl":"https://khanibrahim.github.io/Artophilia/Gallery/5/",
+  "imageNameList": "1.jpg,2.jpg,3.jpg,4.jpg",
+  "imageTitle": "منديل بسيط بألوان خريفية و الوردة العنكبوتية‎‎"
 }
 ]
