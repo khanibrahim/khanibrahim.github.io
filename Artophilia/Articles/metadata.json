@@ -1,15 +1,28 @@
 [
 
 {
-  "articleUrl": "https://www.google.com",
-  "imagePath": "https://khanibrahim.github.io/Artophilia/Articles/1/header.jpg",
-  "titleTxt": "أهلاً أصدقاء آرتوفيليا"
+  "articleUrl": "https://khanibrahim.github.io/Artophilia/Articles/1/index.html",
+  "imagePath": "https://khanibrahim.github.io/Artophilia/Articles/1/header.png",
+  "titleTxt": "فن و تاريخ التطريز اليدوي"
 },
 
 {
   "articleUrl": "https://khanibrahim.github.io/Artophilia/Articles/2/index.html",
   "imagePath": "https://khanibrahim.github.io/Artophilia/Articles/2/header.png",
-  "titleTxt": "فن و تاريخ التطريز اليدوي"
+  "titleTxt": "أدوات التطريز"
+}
+,
+
+{
+  "articleUrl": "https://khanibrahim.github.io/Artophilia/Articles/3/index.html",
+  "imagePath": "https://khanibrahim.github.io/Artophilia/Articles/3/header.png",
+  "titleTxt": "برامج مساعدة في التطريز"
+},
+
+{
+  "articleUrl": "https://khanibrahim.github.io/Artophilia/Articles/4/index.html",
+  "imagePath": "https://khanibrahim.github.io/Artophilia/Articles/4/header.png",
+  "titleTxt": "التطريز"
 }
 
 ]
